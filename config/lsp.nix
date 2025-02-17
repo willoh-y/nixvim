@@ -4,13 +4,13 @@
     servers = {
       lua_ls.enable = true;
       nil_ls = {
-            enable = true;
-          settings = {
-            formatting = {
-              command = [ "nixfmt" ];
-            };
+        enable = true;
+        settings = {
+          formatting = {
+            command = [ "nixfmt" ];
+          };
+        };
       };
     };
   };
-};
 }
