@@ -43,4 +43,5 @@
   plugins.treesitter.enable = true;
   plugins.harpoon.enable = true;
   plugins.flash.enable = true;
+  plugins.render-markdown.enable = true;
 }
