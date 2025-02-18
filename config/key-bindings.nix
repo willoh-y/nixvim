@@ -106,6 +106,29 @@
           icon = "";
         }
 
+        # BUFFER GROUP
+        {
+          __unkeyed-1 = "<leader>b";
+          mode = "n";
+          group = "+buffer";
+          icon = "";
+        }
+        {
+          __unkeyed-1 = "<leader>bn";
+          mode = "n";
+          icon = "";
+        }
+        {
+          __unkeyed-1 = "<leader>bp";
+          mode = "n";
+          icon = "";
+        }
+        {
+          __unkeyed-1 = "<leader>bk";
+          mode = "n";
+          icon = "";
+        }
+
         # LSP GROUP
         {
           __unkeyed-1 = "<leader>l";
@@ -280,6 +303,24 @@
       action = "<cmd>Telescope buffers<cr>";
       options.desc = "buffers";
     }
+
+    # BUFFER GROUP
+    {
+      key = "<leader>bn";
+      action = "<cmd>bn<cr>";
+      options.desc = "next";
+    }
+    {
+      key = "<leader>bp";
+      action = "<cmd>bp<cr>";
+      options.desc = "previous";
+    }
+    {
+      key = "<leader>bk";
+      action = "<cmd>bd<cr>";
+      options.desc = "kill";
+    }
+
     # LSP GROUP
     {
       key = "<leader>lf";
